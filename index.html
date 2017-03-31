@@ -1,9 +1,436 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My Portfolio</title>
+
+<!-- Title -->
+<title>Alex Amistad | Full Stack Web Developer</title>
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Cache-control" content="public">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Alex Amistad a full stack web developer.">
+<meta name="keywords" content="alex,amistad,fullstack,developer,webdeveloper,programmer">
+<meta name="author" content="Alex Amistad">
+
+<link rel="shortcut icon" href="images/favicon.jpg">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Retina Images -->
+<script>if((window.devicePixelRatio===undefined?1:window.devicePixelRatio)>1)
+    document.cookie='HTTP_IS_RETINA=1;path=/';</script>
+<!-- End Retina Images -->
+
+<!-- Google Web Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,700,500' rel='stylesheet' type='text/css'>
+
+<!-- Stylesheets -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/animations.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/flaticon.css" />
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+<link rel="stylesheet" type="text/css" href="colors/blue.css" id="colors" />
+
 </head>
+
 <body>
-<h1>Hello Alex!</h1>
+<!-- Loader -->
+<div id="page-loader">	</div>
+<!-- Loader / End -->
+
+<!-- Header  -->
+<header id="nav-content" class="vertical-nav nav-white">
+
+	<!-- Logo -->
+	<div class="my-logo">
+    	<a href="#profile"><img src="images/alex.jpg" alt="" /></a>
+    </div>
+    
+    <!-- Navigation -->
+    <ul class="menu nav me-nav">
+    	<li class="menu-item active"><a href="#profile"><span>Profile</span><i class="fa fa-user"></i></a></li>
+        <li class="menu-item"><a href="#resume"><span>Resume</span><i class="fa fa-pencil"></i></a></li>
+        <li class="menu-item"><a href="#portfolio"><span>Portfolio</span><i class="fa fa-desktop"></i></a></li>
+    </ul>
+    
+    <!-- Copyright -->
+    <span class="copyright hidden-md">©<span id="yrReserve"></span> <b>Alex Amistad</b>.</span>
+
+</header>
+<!-- Header / End -->
+
+<!-- Page Content -->
+<div id="page-content">
+
+	<!-- Profile -->
+	<section id="profile" class="black">
+    
+    	<!-- Background photo -->
+    	<div id="profile-bg" class="editable-alpha" data-alpha="40"><img src="images/header.jpg" alt="" /></div>
+    
+    	<div class="content padded dark">
+        
+        	<!-- Top Bar -->
+        	<div class="top-bar">
+            
+            	<!-- Social media -->
+            	<div class="pull-left">
+                	<span class="hiddend-sm hidden-xs">Check my social media! &nbsp; &nbsp; </span>
+                    <ul class="social-icons si-pull-up">
+                        <li><a href="https://www.facebook.com/evilscripts" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/alex-amistad-031a5a106" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/heartseeker" target="_blank"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        
+			<!-- Profile Content -->
+            <div class="profile-content">
+            	<h1 class="short">Alex Amistad</h1>
+                <h5>I am <span class="text-primary">Fullstack</span> Web Developer.</h5>
+                <a href="#" class="btn btn-primary" target="_blank">Download my CV</a> 
+                <a href="mailto:alexinformationtech@gmail.com" class="btn btn-default">Contact me</a>
+            </div>
+            
+            <!-- Bottom Bar -->
+            <div class="bottom-bar profile-bottom-bar hidden-xs">
+            
+            	<!-- Contact List -->
+                <ul class="list-inline">
+                  <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>Quezon City, Philippines</li>
+                  <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="#">alexinformationtech@gmail.com</a></li>
+                  <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>+(639) 9058513108</li>
+                </ul>
+             
+            </div>
+                    
+        </div>    	
+        
+    </section>
+    <!-- Profile / End -->
+    
+    <!-- Resume -->
+	<section id="resume">
+    
+    	<div class="content dimmed-effect padded-short">
+        	
+            <div class="row">
+            
+              <div class="col-lg-4">
+              
+              	<!-- Box - About Me -->
+                <div class="resume-box animated slide-in-top">
+                  <i class="title-icon text-blue flaticon-speech43"></i>
+                  <h3>Who am I?</h3>
+                  <p class="lead">Sed porttitor nulla eget enim gravida blandit. Integer risus nunc, molestie a nibh in, interdum fringilla urna. </p>
+                  <p>Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.</p>
+                  <p>Aenean ac tincidunt augue, volutpat ullamcorper elit.</p>
+                  <a href="#portfolio" class="btn btn-black">See my portfolio</a> <a href="#contact" class="btn btn-default">Contact me</a>
+                </div>
+                
+                <!-- Box - Skills & Attributes -->
+                <div class="resume-box animated slide-in-left appear-second">
+                  <i class="title-icon text-green flaticon-open79"></i>
+                  <h3>Skills &amp; Attributes</h3>
+                  <!-- Sinlge skill -->
+                  <div class="skill">
+                  	<span class="skill-name">Adobe Photoshop</span>
+                    <div class="skill-bar sb-green">
+                    	<div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                    </div>
+                  </div>
+                  <!-- Sinlge skill -->
+                  <div class="skill">
+                  	<span class="skill-name">Adobe Dreamweaver</span>
+                    <div class="skill-bar sb-green">
+                    	<div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-off"></div>
+                        <div class="skill-rate-off"></div>
+                    </div>
+                  </div>
+                  <!-- Sinlge skill -->
+                  <div class="skill">
+                  	<span class="skill-name">HTML/CSS</span>
+                    <div class="skill-bar sb-green">
+                    	<div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                    </div>
+                  </div>
+                  <!-- Sinlge skill -->
+                  <div class="skill">
+                  	<span class="skill-name">jQuery</span>
+                    <div class="skill-bar sb-green">
+                    	<div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-off"></div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+          	  
+              <div class="col-md-6 col-lg-4">
+              
+              	<!-- Box - Specialities -->
+                <div class="resume-box animated slide-in-right">
+                  <i class="title-icon text-red flaticon-mouse19"></i>
+                  <h3>My Specialities</h3>
+                  <!-- Speciality -->
+                  <div class="speciality">
+                  	<i class="speciality-icon text-red flaticon-bulb11"></i>
+                    <div class="speciality-content">
+                    	<h5 class="short">Web design</h5>
+                        <p class="speciaity-description">Great, modern website designes.</p>
+                    </div>
+                  </div>
+                  <!-- Speciality -->
+                  <div class="speciality">
+                  	<i class="speciality-icon text-red flaticon-codings1"></i>
+                    <div class="speciality-content">
+                    	<h5 class="short">Front-End Web Development</h5>
+                        <p class="speciaity-description">Great, modern website designes.</p>
+                    </div>
+                  </div>
+                  <!-- Speciality -->
+                  <div class="speciality">
+                  	<i class="speciality-icon text-red flaticon-tablet42"></i>
+                    <div class="speciality-content">
+                    	<h5 class="short">App Design</h5>
+                        <p class="speciaity-description">Great, modern website designes.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Box - Education & Jobs -->
+                <div class="resume-box animated slide-in-left">
+                  <i class="title-icon text-yellow flaticon-document56"></i>
+                  <h3>Education & Jobs</h3>
+                  <div class="timeline">
+                  	<!-- Single event -->
+                  	<div class="timeline-event te-yellow">
+                      <div class="event-date">Jan 2004 - Dec 2006</div>
+                      <div class="event-name">Specialization course</div>
+                      <div class="event-description">University of studies, Poland, Cracow</div>
+                    </div>
+                    <!-- Single event -->
+                  	<div class="timeline-event te-yellow">
+                      <div class="event-date">Jan 2004 - Dec 2006</div>
+                      <div class="event-name">Specialization course</div>
+                      <div class="event-description">University of studies, Poland, Cracow</div>
+                    </div>
+                    <!-- Single event -->
+                  	<div class="timeline-event te-yellow">
+                      <div class="event-date">Jan 2004 - Dec 2006</div>
+                      <div class="event-name">Specialization course</div>
+                      <div class="event-description">University of studies, Poland, Cracow</div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              
+              <div class="col-md-6 col-lg-4">
+              
+              	<!-- Box - Languages -->
+                <div class="resume-box animated slide-in-right appear-second">
+                  <i class="title-icon text-orange flaticon-chat25"></i>
+                  <h3>Languages</h3>
+                  <!-- Single skill -->
+                  <div class="skill">
+                  	<span class="skill-name">English</span>
+                    <div class="skill-bar sb-orange">
+                    	<div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                    </div>
+                  </div>
+                  <!-- Single skill -->
+                  <div class="skill">
+                  	<span class="skill-name">German</span>
+                    <div class="skill-bar sb-orange">
+                    	<div class="skill-rate-on"></div>
+                        <div class="skill-rate-on"></div>
+                        <div class="skill-rate-off"></div>
+                        <div class="skill-rate-off"></div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Box - Hobbies -->
+                <div class="resume-box animated slide-in-bottom">
+                  <i class="title-icon text-violet flaticon-joystick4"></i>
+                  <h3>Hobbies &amp; Interests</h3>
+                  <!-- List group -->
+                  <ul class="list-group">
+                    <li class="list-group-item">Beer</li>
+                    <li class="list-group-item">Sport</li>
+                    <li class="list-group-item">Music</li>
+                    <li class="list-group-item">Videogames</li>
+                  </ul>
+                </div>
+                
+              </div>
+              
+            </div>
+            
+        </div>
+    
+    </section>
+    <!-- Resume / End -->
+    
+    <!-- Portfolio -->
+    <section id="portfolio">
+    
+    	<!-- Projects Holder -->
+    	<div class="projects-holder black dark clearfix">
+          <!-- Single Project --> 
+          <div class="single-project animated fade-in">
+            <div class="project-image">
+                <img src="images/portfolio/project_01.jpg" alt="" />
+            </div>
+            <div class="project-mask">
+              <div class="project-info">
+                <div class="project-title">Swimming Pool</div>
+                <div class="project-caption text-blue">Webdesgin</div>
+                <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-blue btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Project --> 
+          <div class="single-project animated fade-in appear-third">
+            <div class="project-image">
+                <img src="images/portfolio/project_02.jpg" alt="" />
+            </div>
+            <div class="project-mask">
+              <div class="project-info">
+                <div class="project-title">Shopping Mall</div>
+                <div class="project-caption text-yellow">Webdesgin / Webdevelopment</div>
+                <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-yellow btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Project --> 
+          <div class="single-project animated fade-in appear-second">
+            <div class="project-image">
+                <img src="images/portfolio/project_03.jpg" alt="" />
+            </div>
+            <div class="project-mask">
+              <div class="project-info">
+                <div class="project-title">Animal Charity</div>
+                <div class="project-caption text-green">Corporate Identity</div>
+                <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-green btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Project --> 
+          <div class="single-project animated fade-in appear-fourth">
+            <div class="project-image">
+                <img src="images/portfolio/project_04.jpg" alt="" />
+            </div>
+            <div class="project-mask">
+              <div class="project-info">
+                <div class="project-title">Be Pregnant</div>
+                <div class="project-caption text-red">Webdesgin / Corporate Identity</div>
+                <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-red btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Project --> 
+          <div class="single-project animated fade-in">
+            <div class="project-image">
+                <img src="images/portfolio/project_05.jpg" alt="" />
+            </div>
+            <div class="project-mask">
+              <div class="project-info">
+                <div class="project-title">Booking Store</div>
+                <div class="project-caption text-green">Webdesgin / Webdevelopment</div>
+                <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-green btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Project --> 
+          <div class="single-project animated fade-in appear-second">
+            <div class="project-image">
+                <img src="images/portfolio/project_06.jpg" alt="" />
+            </div>
+            <div class="project-mask">
+              <div class="project-info">
+                <div class="project-title">Social Media App</div>
+                <div class="project-caption text-orange">App Design</div>
+                <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-orange btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Project --> 
+          <div class="single-project animated fade-in appear-fourth">
+            <div class="project-image">
+                <img src="images/portfolio/project_07.jpg" alt="" />
+            </div>
+            <div class="project-mask">
+              <div class="project-info">
+                <div class="project-title">Medical Business</div>
+                <div class="project-caption text-blue">Webdesgin / Corporate Identity</div>
+                <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-blue btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Project --> 
+          <div class="single-project animated fade-in appear-third">
+            <div class="project-image">
+                <img src="images/portfolio/project_08.jpg" alt="" />
+            </div>
+            <div class="project-mask">
+              <div class="project-info">
+                <div class="project-title">Pice of cake!</div>
+                <div class="project-caption text-orange">Webdesgin / Webdevelopment</div>
+                <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-orange btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Ajax Project Details -->
+        <div class="project-content"></div>
+        
+    </section>
+    <!-- Portfjolo / End -->
+
+</div>
+<!-- Page Content / End -->
+
+<!-- Scripts -->
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/page-loader.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/jquery.appear.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+<!-- Custom Script -->
+<script type="text/javascript" src="js/custom.js"></script>
+
 </body>
+
 </html>
